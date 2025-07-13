@@ -1,5 +1,9 @@
 # 🖱️ Hot Corner for Windows
 
+![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 Ubuntu-style hot corner for Windows using Python — trigger an action (like opening Task View) when your mouse hits the top-left corner of **any monitor**.
 
 Runs in the system tray with support for pause/resume and multi-monitor setups.
