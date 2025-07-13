@@ -39,7 +39,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-If you don’t have `requirements.txt`, install manually:
+Or install manually:
 
 ```bash
 pip install pyautogui pystray pillow keyboard screeninfo
