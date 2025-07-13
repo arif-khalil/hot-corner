@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Installer logs
+*.log
+
+# Icon files or platform-specific
+*.ico
+
+# VSCode settings (optional)
+.vscode/
