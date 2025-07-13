@@ -9,7 +9,7 @@ from screeninfo import get_monitors
 
 CORNER_THRESHOLD = 5
 CHECK_INTERVAL = 0.2  # check 5 times per second
-DEBOUNCE_DELAY = 1.0  # short cooldown after triggering
+DEBOUNCE_DELAY = 0.1  # short cooldown after triggering
 
 paused = False
 running = True
@@ -65,7 +65,8 @@ def run_hot_corner(icon):
         if not paused and is_in_top_left_corner():
             print("Top-left corner detected! Opening Task View (Win + Tab)")
             win_tab()
-            time.sleep(DEBOUNCE_DELAY)  # debounce
+            while is_in_top_left_corner():
+                time.sleep(DEBOUNCE_DELAY)  # debounce
         time.sleep(CHECK_INTERVAL)
 
 icon = pystray.Icon("hotcorner", create_image(), "Hot Corner")
