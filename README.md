@@ -78,23 +78,6 @@ pyinstaller --onefile --windowed --icon=icon.ico hot_corner.py
 
 ---
 
-## 📁 Recommended `.gitignore`
-
-```gitignore
-__pycache__/
-*.py[cod]
-.venv/
-env/
-venv/
-build/
-dist/
-*.spec
-*.ico
-.vscode/
-```
-
----
-
 ## 🧠 Future Ideas
 
 * Configurable corners and actions
