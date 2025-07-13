@@ -1,4 +1,3 @@
-````markdown
 # 🖱️ Hot Corner for Windows
 
 Ubuntu-style hot corner for Windows using Python — trigger an action (like opening Task View) when your mouse hits the top-left corner of **any monitor**.
